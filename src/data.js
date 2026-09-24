@@ -7,8 +7,8 @@
 // ---------------------------------------------------------------------------
 
 export const brand = {
-  name: 'Dream',
-  accent: 'Interiors',
+  name: 'Interior ',
+  accent: 'Adda',
   tagline: 'Interior design studio',
 };
 
