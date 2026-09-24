@@ -36,17 +36,17 @@ export const hero = {
 };
 
 export const heroImages = [
-  { id: 1, img : '/img/sofa.jpg', src: 'https://picsum.photos/seed/di-hero-a/900/1100', alt: 'Sunlit living room with linen sofa and wood shelving' },
-  { id: 2, img:'/img/bed.jpg' , src: 'https://picsum.photos/seed/di-hero-b/700/900', alt: 'Minimal bedroom with warm timber headboard' },
+  { id: 1, img : '/img/img1.jpg', src: 'https://picsum.photos/seed/di-hero-a/900/1100', alt: 'Sunlit living room with linen sofa and wood shelving' },
+  { id: 2, img:'/img/img2.jpg' , src: 'https://picsum.photos/seed/di-hero-b/700/900', alt: 'Minimal bedroom with warm timber headboard' },
 ];
 
 export const heroFilmstrip = [
-  { id: 1, img : "/img/dtable2.jpg" , src: 'https://picsum.photos/seed/di-strip-1/500/620', alt: 'Kitchen with open wood shelving' },
-  { id: 2,img : "/img/home.jpg" ,  src: 'https://picsum.photos/seed/di-strip-2/500/620', alt: 'Reading corner with rattan chair' },
-  { id: 3,img : "/img/bed2.jpg" , src: 'https://picsum.photos/seed/di-strip-3/500/620', alt: 'Bedroom styled with warm textiles' },
-  { id: 4,img : "/img/sofa2.jpeg" , src: 'https://picsum.photos/seed/di-strip-4/500/620', alt: 'Living room with curved sofa' },
-  { id: 5,img : "/img/bed3.jpeg" , src: 'https://picsum.photos/seed/di-strip-5/500/620', alt: 'Entryway with arched mirror' },
-  { id: 6,img : "/img/dtable.jpg" , src: 'https://picsum.photos/seed/di-strip-6/500/620', alt: 'Dining nook with pendant lighting' },
+  { id: 1, img : "/img/img3.jpg" , src: 'https://picsum.photos/seed/di-strip-1/500/620', alt: 'Kitchen with open wood shelving' },
+  { id: 2,img : "/img/img4.jpg" ,  src: 'https://picsum.photos/seed/di-strip-2/500/620', alt: 'Reading corner with rattan chair' },
+  { id: 3,img : "/img/img5.jpg" , src: 'https://picsum.photos/seed/di-strip-3/500/620', alt: 'Bedroom styled with warm textiles' },
+  { id: 4,img : "/img/img6.jpg" , src: 'https://picsum.photos/seed/di-strip-4/500/620', alt: 'Living room with curved sofa' },
+  { id: 5,img : "/img/img7.jpg" , src: 'https://picsum.photos/seed/di-strip-5/500/620', alt: 'Entryway with arched mirror' },
+  { id: 6,img : "/img/img8.jpg" , src: 'https://picsum.photos/seed/di-strip-6/500/620', alt: 'Dining nook with pendant lighting' },
 ];
 
 // ---------------------------------------------------------------------------
@@ -62,8 +62,8 @@ export const about = {
   linkLabel: 'More about the studio',
   linkHref: '#services',
   images: [
-    { id: 1,img : "/img/dtable2.jpg" , src: 'https://picsum.photos/seed/di-about-1/700/860', alt: 'Studio founder reviewing material samples' },
-    { id: 2,img : "/img/bed.jpg" , src: 'https://picsum.photos/seed/di-about-2/620/500', alt: 'Warm-toned living room with arched doorway' },
+    { id: 1,img : "/img/img9.jpg" , src: 'https://picsum.photos/seed/di-about-1/700/860', alt: 'Studio founder reviewing material samples' },
+    { id: 2,img : "/img/img10.jpg" , src: 'https://picsum.photos/seed/di-about-2/620/500', alt: 'Warm-toned living room with arched doorway' },
   ],
   stats: [
     { id: 1, value: '12', suffix: '+', label: 'Years in practice' },
@@ -127,7 +127,7 @@ export const projects = [
     category: 'Residential · Full home',
     location: 'Jaipur, India',
     price: '₹18,50,000',
-    image: '/img/sofa.jpg',
+    image: '/img/img11.jpg',
     likes: 342,
     views: 4820,
     size: 'lg',
@@ -138,7 +138,7 @@ export const projects = [
     category: 'Residential · Living & dining',
     location: 'Udaipur, India',
     price: '₹9,40,000',
-    image: '/img/dtable.jpg',
+    image: '/img/img12.jpg',
     likes: 198,
     views: 2610,
     size: 'md',
@@ -149,7 +149,7 @@ export const projects = [
     category: 'Residential · Full home',
     location: 'Jaipur, India',
     price: '₹21,20,000',
-    image: '/img/home.jpg',
+    image: '/img/img13.jpg',
     likes: 276,
     views: 3190,
     size: 'md',
@@ -160,7 +160,7 @@ export const projects = [
     category: 'Residential · Bedroom suite',
     location: 'Goa, India',
     price: '₹7,80,000',
-    image: '/img/sofa3.jpeg',
+    image: '/img/img14.jpg',
     likes: 415,
     views: 5230,
     size: 'lg',
@@ -171,7 +171,7 @@ export const projects = [
     category: 'Residential · Study',
     location: 'Mumbai, India',
     price: '₹4,60,000',
-    image: '/img/sofa.jpg',
+    image: '/img/img15.jpg',
     likes: 152,
     views: 1980,
     size: 'md',
@@ -226,7 +226,7 @@ export const testimonialStats = [
 ];
 
 export const featuredTestimonial = {
-  image: '/img/dtable.jpg',
+  image: '/img/img17.jpg',
   quote:
     'From the first walkthrough to the last cushion, everything had a reason. Our home finally feels like it was designed for how we live, not for a photograph.',
   name: 'Ritika Sharma',
@@ -283,7 +283,7 @@ export const blogPosts = [
     title: 'Why we design the layout before we pick a single finish',
     excerpt:
       'Paint and furniture are reversible. A bad layout is not. Here is how we sequence a project so the expensive decisions come last.',
-    image: '/img/home.jpg',
+    image: '/img/img18.jpg',
     readTime: '4 min read',
     href: '#',
   },
@@ -294,7 +294,7 @@ export const blogPosts = [
     title: 'The lighting layers every room actually needs',
     excerpt:
       'Ambient, task and accent light do different jobs. Missing one is why a beautifully furnished room can still feel flat at night.',
-    image: '/img/sofa.jpg',
+    image: '/img/img19.jpg',
     readTime: '5 min read',
     href: '#',
   },
@@ -305,7 +305,7 @@ export const blogPosts = [
     title: 'Materials that earn their place in a busy home',
     excerpt:
       'What actually holds up to daily life with kids, pets and guests — and where it is worth spending more to get it right.',
-    image: '/img/bed2.jpg',
+    image: '/img/img20.jpg',
     readTime: '3 min read',
     href: '#',
   },
